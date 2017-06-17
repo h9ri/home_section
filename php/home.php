@@ -5,6 +5,7 @@
     <title>WTL</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/header.css">
+    <script src="js/home.js" charset="utf-8"></script>
   </head>
   <body>
 <?php
@@ -48,17 +49,7 @@ foreach ($arr_header as $key => $value) {
 echo "<div href=\"#hom_sec\" class=\"news\"><div class=\"nos\">".$nos."</div>".$arr_header['Menu_1']."</div>";
 echo "</div>";
 ?>
-  <script>
-  function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-      // document.getElementById("main").style.marginLeft = "250px";
-  }
-
-  function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-      // document.getElementById("main").style.marginLeft= "0";
-  }
-  </script>
+  
 
   </body>
 </html>
